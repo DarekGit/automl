@@ -7,7 +7,7 @@ Thanks to new development from Google based on the advanced backbone, a new BiFP
 Attention: 1 training epoch took arround 1,5h on TESLA P100
 
 
-results after 20 epochs: 
+results after 20 epochs for efficientdet-d4: 
 - WiderFace - AP50   , mAP
 - Hi-res pictures - AP50  , mAP
 
