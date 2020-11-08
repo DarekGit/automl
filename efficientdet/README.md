@@ -1,6 +1,6 @@
-# There is a test of utilisation of EfficientDet <br> 
-for face detections based on training with WiderFace
-<br>
+# There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
+
+
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 
 # EfficientDet
