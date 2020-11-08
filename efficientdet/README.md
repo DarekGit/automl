@@ -1,7 +1,19 @@
 # There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
 
 
+
+Attention: 1 training epoch took arround 1,5h
+
+
+
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
+
+
+
+
+
+
+
 
 # EfficientDet
 
