@@ -74,9 +74,9 @@ flags.DEFINE_multi_integer(
 flags.DEFINE_integer('train_batch_size', 64, 'global training batch size')
 flags.DEFINE_integer('eval_batch_size', 1, 'global evaluation batch size')
 flags.DEFINE_integer('eval_samples', 5000, 'Number of samples for eval.')
-flags.DEFINE_integer('iterations_per_loop', 100,
+flags.DEFINE_integer('iterations_per_loop', 200,
                      'Number of iterations per TPU training loop')
-flags.DEFINE_integer('save_checkpoints_steps', 100,
+flags.DEFINE_integer('save_checkpoints_steps', 200,
                      'Number of iterations per checkpoint save')
 flags.DEFINE_string(
     'training_file_pattern', None,
@@ -103,7 +103,7 @@ flags.DEFINE_integer(
     ' across runs (for debugging).')
 
 # For Eval mode
-flags.DEFINE_integer('min_eval_interval', 180,
+flags.DEFINE_integer('min_eval_interval', 300,
                      'Minimum seconds between evaluations.')
 flags.DEFINE_integer(
     'eval_timeout', None,
@@ -127,6 +127,8 @@ def main(_):
     tpu_grpc_url = tpu_cluster_resolver.get_master()
     tf.Session.reset(tpu_grpc_url)
   else:
+    # Always enable auto mixed precision graph rewrite
+    os.environ['TF_AUTO_MIXED_PRECISION_GRAPH_REWRITE_IGNORE_PERFORMANCE'] = '1'
     tpu_cluster_resolver = None
 
   # Check data path
