@@ -1,3 +1,6 @@
+# There is a test of utilisation of EfficientDet for face detections based on training with WiderFace
+**Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
+
 # EfficientDet
 
 [1] Mingxing Tan, Ruoming Pang, Quoc V. Le. EfficientDet: Scalable and Efficient Object Detection. CVPR 2020.
