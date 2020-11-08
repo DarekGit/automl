@@ -1,20 +1,12 @@
 # There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
 
-
-
+<br><br><br>
 Attention: 1 training epoch took arround 1,5h
 
-
-
+<br><br><br>
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 
-
-
-
-
-
-
-
+<br><br><br><br><br>
 # EfficientDet
 
 [1] Mingxing Tan, Ruoming Pang, Quoc V. Le. EfficientDet: Scalable and Efficient Object Detection. CVPR 2020.
