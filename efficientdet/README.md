@@ -1,11 +1,19 @@
 # There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
 
 <br><br><br>
+Thanks to new development from Google based on the advanced backbone, a new BiFPN, and a new scaling technique dated 2020 there has been noted improvements in Face Detection as well.
+
+
 Attention: 1 training epoch took arround 1,5h on TESLA P100
+
 
 results after 20 epochs: 
 - WiderFace - AP50   , mAP
 - Hi-res pictures - AP50  , mAP
+
+```
+
+```
 
 <br><br><br>
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
