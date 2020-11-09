@@ -10,7 +10,7 @@ Attention: one training epoch for efficientdet-d4 on WiderFace took arround 1,5h
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 </br></br>
 
-Coco evaluation results after 6 training epochs (38640 iterations) on efficientdet-d4 with WiderFace training dataset reach better accuracy than classical FPN on detectron2 ( [Detectron2 Faces Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) ) :
+Coco evaluation results after **6 training epochs (38640 iterations)** on efficientdet-d4 with WiderFace training dataset reach better accuracy than classical FPN on detectron2 ( [Detectron2 Faces Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) ) :
 </br>
 
 - WiderFace Val - AP50 - 31.3%  , mAP 57.5% (+0.35pp)
@@ -35,7 +35,7 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
 ```
 </br></br>
 
-Goal: Coco evaluation results after 300 training epochs
+Goal: Coco evaluation results after **300 training epochs**
 ```
 ```
 </br></br>
