@@ -6,7 +6,9 @@ Thanks to new development from Google Research based on the advanced EfficientNe
 
 Attention: one training epoch for efficientdet-d4 on WiderFace took arround 1,5h on TESLA P100
 
+**Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 
+<br>
 Coco evaluation Wider Val results after 6 training epochs (38640 iterations) on efficientdet-d4 with WiderFace training dataset reach better accuracy than classical FPN on detectron2 
 ([Faces_detectron2_results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb)):
 - WiderFace val - AP50 - 31.3%  , mAP 57.5% (+0.35pp)
@@ -14,16 +16,9 @@ Coco evaluation Wider Val results after 6 training epochs (38640 iterations) on 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.313
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.575
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.311
  Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.173
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.618
  Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.697
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.058
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.219
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.369
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.243
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.683
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.770
 ```
 
 - Hi-res pictures - AP50 94.5% (2.2pp)  , mAP - 65.8% (+2.5pp)
@@ -31,16 +26,10 @@ Coco evaluation Wider Val results after 6 training epochs (38640 iterations) on 
 ```
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.658
 Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.945
-Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.786
 Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.323
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
 Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.271
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.623
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.735
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.420
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.639
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.783
+
 ```
 <br><br>
 Goal: Coco evaluation Wider Val results after 300 training epochs
