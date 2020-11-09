@@ -1,22 +1,20 @@
 # There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
 
-<br/><br/><br/>
+</br></br></br>
 Thanks to new development from Google Research based on the advanced EfficientNet, a new BiFPN, and a new scaling technique dated 2020 there has been noted improvements in Face Detection as well.
 
 
 Attention: one training epoch for efficientdet-d4 on WiderFace took arround 1,5h on TESLA P100
 
 
-[Faces Detectron2 Results]('https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb')
+[Faces Detectron2 Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb)
 
 
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 
-<br/>
-Coco evaluation Wider Val results after 6 training epochs (38640 iterations) on efficientdet-d4 with WiderFace training dataset reach better accuracy than classical FPN on detectron2 ( 
-[Faces Detectron2 Results]('https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb')
- . ) :
-<br>
+</br>
+Coco evaluation Wider Val results after 6 training epochs (38640 iterations) on efficientdet-d4 with WiderFace training dataset reach better accuracy than classical FPN on detectron2 ( [Faces Detectron2 Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) . ) :
+</br>
 - WiderFace val - AP50 - 31.3%  , mAP 57.5% (+0.35pp)
 
 ```
@@ -37,15 +35,15 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
 Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
 
 ```
-<br/><br/>
+</br></br>
 Goal: Coco evaluation Wider Val results after 300 training epochs
 ```
 ```
 
-<br/><br/>
+</br></br>
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
 
-<br/><br/><br/><br/><br/>
+</br></br></br></br></br>
 # EfficientDet
 
 [1] Mingxing Tan, Ruoming Pang, Quoc V. Le. EfficientDet: Scalable and Efficient Object Detection. CVPR 2020.
