@@ -2,9 +2,9 @@
 
 </br></br></br>
 Thanks to new development from Google Research based on the advanced EfficientNet, a new BiFPN, and a new scaling technique dated 2020 there have been noted improvements in Face Detection as well.
+</br>
 
-
-**Attention: One training epoch (with evaluation) for efficientdet-d4 with WiderFace train on TESLA V100 took arround 2h **
+**Attention: One training epoch (with evaluation) for efficientdet-d4 with WiderFace train on TESLA V100 took arround 2h**
 </br></br>
 
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
