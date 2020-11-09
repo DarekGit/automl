@@ -1,7 +1,7 @@
 # There is a test of utilisation of EfficientDet <br> for face detections based on training with WiderFace
 
 </br></br></br>
-Thanks to new development from Google Research based on the advanced EfficientNet, a new BiFPN, and a new scaling technique dated 2020 there has been noted improvements in Face Detection as well.
+Thanks to new development from Google Research based on the advanced EfficientNet, a new BiFPN, and a new scaling technique dated 2020 there have been noted improvements in Face Detection as well.
 
 
 Attention: one training epoch for efficientdet-d4 on WiderFace took arround 1,5h on TESLA P100
