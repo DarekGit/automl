@@ -13,7 +13,7 @@ Thanks to new development from Google Research based on the advanced EfficientNe
 Coco evaluation results after **6 training epochs (38640 iterations)** on efficientdet-d4 with WiderFace training dataset reach better accuracy than basic FPN on detectron2 ( [Detectron2 Faces Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) ) :
 </br>
 
-- WiderFace Val - AP50 - 31.3%  , mAP - 57.5% (+0.35pp)
+- WiderFace Val - AP50 - 57.5% (+0.35pp)  , mAP - 31.3%
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.313
@@ -55,10 +55,11 @@ Goal: Coco evaluation results after **300 training epochs**
 
 **Attention: One training epoch (with evaluation) for efficientdet-d7 with WiderFace train set on TESLA V100 took arround 8h**
 </br>
+
 Coco evaluation results after **6 training epochs (38640 iterations)** on efficientdet-d7 with WiderFace training dataset reach much better accuracy than basic FPN on detectron2 ( [Detectron2 Faces Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) ) :
 </br>
 
-- WiderFace Val - AP50 - 34.4% (+3pp)  , mAP - 62.2% (+5.1pp)
+- WiderFace Val - AP50 - 62.2% (+5.1pp)  , mAP - 34.4% (+3pp)
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.344
