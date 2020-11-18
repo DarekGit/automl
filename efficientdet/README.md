@@ -23,7 +23,7 @@ Coco evaluation results after **6 training epochs (38640 iterations)** on effici
  Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.697
 ```
 
-- Hi-res pictures - AP50 - 94.5% (+2.2pp)  , mAP - 65.8% (+2.5pp)
+- Hi-res pictures - AP50 - 94.5% (+2.2pp)  , mAP - 65.8% (+3.5pp)
 
 ```
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.658
@@ -51,7 +51,34 @@ Goal: Coco evaluation results after **300 training epochs**
 </br></br>
 
 **Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
-</br></br></br></br></br>
+</br></br></br>
+
+**Attention: One training epoch (with evaluation) for efficientdet-d7 with WiderFace train set on TESLA V100 took arround 8h**
+</br>
+Coco evaluation results after **6 training epochs (38640 iterations)** on efficientdet-d7 with WiderFace training dataset reach much better accuracy than basic FPN on detectron2 :
+</br>
+
+- WiderFace Val - AP50 - 34.4% (+3pp)  , mAP - 62.2% (+5.1pp)
+
+```
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.622
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.632
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.710
+```
+
+- Hi-res pictures - AP50 - 95.2% (+3pp)  , mAP - 65.8% (+3.5pp)
+
+```
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.658
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.952
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.322
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.568
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.703
+```
+</br></br>
+</br></br></br></br>
 
 # EfficientDet
 
