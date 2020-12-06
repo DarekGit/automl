@@ -32,10 +32,26 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.323
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
 Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
 ```
-</br></br>
+<br>
+Best during 200 epochs traing results<br><br> 
+- WiderFace Val after **179 epochs** - AP50 - 57.5% (+0.35pp)  , mAP - 31.3%
+
+```
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.628
+```
+<br>
+
+- Hi-res pictures after **61 epochs** - AP50 - 94.5% (+2.2pp)  , mAP - 65.8% (+3.5pp)
+
+```
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.636
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
+```
+<br><br>
 
 Goal: Coco evaluation results after **300 training epochs**
-</br>
+<br>
 
 - WiderFace Val - AP50 -    , mAP -   (+ )
 
