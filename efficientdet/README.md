@@ -93,7 +93,7 @@ Coco evaluation results after **6 training epochs (38640 iterations)** on effici
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.643
 ```
 
-- Hi-res pictures - AP50 - 95.5% (+3.3pp)  , mAP - 66.4% (+5.0pp)
+- Hi-res pictures - AP50 - 95.5% (+3.3pp)  , mAP - 66.4% (+4.1pp)
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.664
@@ -101,7 +101,7 @@ Coco evaluation results after **6 training epochs (38640 iterations)** on effici
 ```
 </br></br>
 
-**Expeted AP on the level of 40% for WIDERFACE with efficeintdet_d7x**
+**Expected AP on the level of 40% for WIDER FACE with efficientdet_D7x**
 
 </br></br></br></br>
 
