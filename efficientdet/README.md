@@ -7,7 +7,7 @@ Thanks to new development from Google Research based on the advanced EfficientNe
 **Attention: One training epoch (with evaluation) for efficientdet-d4 with WiderFace train set on TESLA V100 took arround 2h**
 </br></br>
 
-**Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
+**Quick start test: [faces_test_D4](faces_test_EfficientDet_D4.ipynb)**
 </br></br>
 
 Coco evaluation results after **6 training epochs (38640 iterations)** on efficientdet-d4 with WiderFace training dataset reach better accuracy than basic FPN on detectron2 ( [Detectron2 Faces Results](https://github.com/DarekGit/FACES_DNN/blob/906780da787ad7544ad9895fbd785d12fa079690/notebooks/06_00_Porownanie.ipynb) ) :
@@ -32,9 +32,12 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.323
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
 Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
 ```
+<br><br>
+
+**Best results during 200 epochs traing**
 <br>
-Best during 200 epochs traing results<br><br> 
-- WiderFace Val after **179 epochs** - AP50 - 57.5% (+0.35pp)  , mAP - 31.3%
+
+- WiderFace Val after **179 epochs** - AP50 - 62.8% (+5.65pp)  , mAP - 34.5% (+3,1pp)
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.345
@@ -42,31 +45,16 @@ Best during 200 epochs traing results<br><br>
 ```
 <br>
 
-- Hi-res pictures after **61 epochs** - AP50 - 94.5% (+2.2pp)  , mAP - 65.8% (+3.5pp)
+- Hi-res pictures after **61 epochs** - AP50 - 95% (+2.8pp)  , mAP - 63.6% (+1.3pp)
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.636
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
 ```
-<br><br>
 
-Goal: Coco evaluation results after **300 training epochs**
-<br>
-
-- WiderFace Val - AP50 -    , mAP -   (+ )
-
-```
- 
-```
-
-- Hi-res pictures - AP50 -   (+ )  , mAP -   (+ )
-
-```
- 
-```
 </br></br>
 
-**Quick start test: [faces_test.ipynb](faces_test_EfficientDet.ipynb)**
+**Quick start test: [faces_test_D7](faces_test_EfficientDet_D7.ipynb)**
 </br></br></br>
 
 **Attention: One training epoch (with evaluation) for efficientdet-d7 with WiderFace train set on TESLA V100 took arround 8h**
@@ -95,6 +83,22 @@ Coco evaluation results after **6 training epochs (38640 iterations)** on effici
  Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.703
 ```
 </br></br>
+**after 22 epochs
+</br>
+
+- WiderFace Val - AP50 - 62.2% (+5.1pp)  , mAP - 34.4% (+3pp)
+
+```
+
+```
+
+- Hi-res pictures - AP50 - 95.2% (+3pp)  , mAP - 65.8% (+3.5pp)
+
+```
+
+```
+</br></br>
+
 </br></br></br></br>
 
 # EfficientDet
